@@ -32,4 +32,6 @@ In order to fetch tweets through Twitter API, one needs to register an App throu
 - Authorize twitter API client.
 - Make a GET request to Twitter API to fetch tweets for a particular query.
 - Parse the tweets. Classify each tweet as positive, negative or neutral.            
-            
+  
+## Sentiments represent by plotting "Bar Graph":
+![](https://github.com/YashikaSharma123/Sentiment-Analysis/blob/master/Bar_graph.png)  
