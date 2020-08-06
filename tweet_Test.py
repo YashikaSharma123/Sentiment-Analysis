@@ -6,10 +6,10 @@ from textblob import TextBlob #text/tweet parse
 class TwitterClient(object):
     def __init__(self):
         # keys and tokens from the Twitter Dev Console
-        consumer_key = 'TL7RyLnfilYH6xaoAlS0XFDCg'
-        consumer_secret = 'u5uBn4P62PMIxT4uwUVTl1Ycx4rsfByFs6jl2e4SQ9zDjPIzCO'
-        access_token = '919434545924935681-2woCDEXuXQdhJewDaCRBqHBYmi5SFDN'
-        access_token_secret = 'T29jqUm6rZqsRYO7AGc47GlgYTaAaN5OtJD0DATo1uBjh'
+        consumer_key = '.................'
+        consumer_secret = '.......................'
+        access_token = '......................'
+        access_token_secret = '....................'
  
         # attempt authentication
         try:
