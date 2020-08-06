@@ -27,14 +27,14 @@ Step 2: login and creatr new app (wait :) from week time)
 
 Step 3: Generate the API Key, and Secret key 
 Consumer API keys
-TL7RyLnfilYH6xaoAlS0XFDCg
-u5uBn4P62PMIxT4uwUVTl1Ycx4rsfByFs6jl2e4SQ9zDjPIzCO
+TL7RyLnfilYzdherjaH6xaoAlS0XFDCg
+u5uBn4P6shrn2PMIxT4uwUVTl1Ycx4rsfByFs6jl2e4SQ9zDjPIzCO
 
 
 
 Access token & access token secret
-919434545924935681-2woCDEXuXQdhJewDaCRBqHBYmi5SFDN
-T29jqUm6rZqsRYO7AGc47GlgYTaAaN5OtJD0DATo1uBjh
+91943454592493537681-2woCfhDEXuXQdhJewDaCRBqHBYmi5SFDN
+T29jqUm6rZqsRYO7AGc47GlgYTaAaN5OtJDndfzmDG0DATo1uBjh
 
 
 Step 4: install python pacakges
