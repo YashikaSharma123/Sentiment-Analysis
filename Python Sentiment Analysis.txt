@@ -1,0 +1,65 @@
+df = id, name , gender
+1
+2
+..
+1000
+
+df = df.drop(columns=['name'])
+df = df.drop(columns=['name','gender'])
+
+
+110 
+
+...
+230
+df = df.iloc[110:231,:]
+df = df[df['id']<110 | df['id']>230]]
+
+
+=============================================
+Sentiment Analayis
+
+Step 1: Register on below url	
+	https://developer.twitter.com/apps
+
+Step 2: login and creatr new app (wait :) from week time)
+
+
+Step 3: Generate the API Key, and Secret key 
+Consumer API keys
+TL7RyLnfilYH6xaoAlS0XFDCg
+u5uBn4P62PMIxT4uwUVTl1Ycx4rsfByFs6jl2e4SQ9zDjPIzCO
+
+
+
+Access token & access token secret
+919434545924935681-2woCDEXuXQdhJewDaCRBqHBYmi5SFDN
+T29jqUm6rZqsRYO7AGc47GlgYTaAaN5OtJD0DATo1uBjh
+
+
+Step 4: install python pacakges
+	pip install tweepy	
+			Auth	: login 
+			Search 	: fetch data from site 
+					
+	pip install textblob		
+			return sentiment value 
+		
+
+
+
+
+
+# set sentiment
+if analysis.sentiment.polarity > 0:
+            return 'positive'
+elif analysis.sentiment.polarity == 0:
+            return 'neutral'
+else:
+            return 'negative'    
+
+#
+return ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t]) |(\w+:\/\/\S+)", " ", tweet).split())     
+
+
+        
